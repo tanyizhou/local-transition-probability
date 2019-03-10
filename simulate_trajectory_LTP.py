@@ -13,9 +13,8 @@ def stable_doublewell_force(x):
     return -1/40 - x/450 + 0.15*math.sin(x/10)
 
 
-trajectory_file = "C:/Users/tanyi/PycharmProjects/test1/bias_force.csv"  # generated new trajectories
-
-n = 500  # particle numbers
+trajectory_file = "C:/Users/tanyi/PycharmProjects/local-transition-probability/bias_force.csv"  # generated new trajectories
+n = 100  # particle numbers
 D = 0.25*20*20  # diffusion coefficient
 channel_length = [-60, 60]
 dt = 0.001  # frame time
